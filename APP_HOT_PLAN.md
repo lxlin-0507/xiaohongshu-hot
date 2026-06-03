@@ -1,7 +1,6 @@
 # APP_HOT_PLAN.md — 小红书 App 创作灵感·热点采集系统（mitmproxy + API 直调方案）
 
-> **当前活跃阶段：Phase A1 — mitmproxy 抓包（接口发现）**  
-> 每次开始工作前**必须先读本文件**，只执行当前活跃阶段的任务，不超前实现其他阶段。  
+  
 > ⚠️ **严禁修改 `scheduled_scraping/` 目录下任何已有文件**，所有产出写入 `xhs_app_hot/` 文件夹。
 
 ---

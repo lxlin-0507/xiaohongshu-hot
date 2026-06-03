@@ -89,8 +89,8 @@ class Config:
     DETAIL_MAX_PAGES: int = int(os.getenv("DETAIL_MAX_PAGES", "20"))
 
     # ── 定时任务配置 ──────────────────────────────────────────────
-    SCHEDULE_HOUR: int = int(os.getenv("SCHEDULE_HOUR", "9"))
-    SCHEDULE_MINUTE: int = int(os.getenv("SCHEDULE_MINUTE", "0"))
+    SCHEDULE_HOUR: int = int(os.getenv("SCHEDULE_HOUR", "10"))
+    SCHEDULE_MINUTE: int = int(os.getenv("SCHEDULE_MINUTE", "40"))
 
     # ── 输出目录 ──────────────────────────────────────────────────
     OUTPUT_DIR: str = _abs(os.getenv("OUTPUT_DIR", "output"))
